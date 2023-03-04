@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.App .location .map-wrap .leaflet-container{
+    width: 600px;
+    height: 600px;
+}
+
+.App .location .map-wrap .leaflet-container .leaflet-layer{
+    width: 600px;
+    height: 600px;
+}
+.App .appointmentInfo input[type="date"]::before {
+    color: red;
+    content: attr(placeholder);
+    width: 140px;
+    padding-right: 10px;
+}
